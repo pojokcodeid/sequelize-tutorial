@@ -17,13 +17,14 @@ app.get("/", (req, res) => {
   }
 });
 
-app.get("/insert", async (req, res) => {
-  const user = await User.create({
-    // const user = await User.build({
+app.get("/insert", (req, res) => {
+  // User.create({
+  let user = User.build({
     namaUser: "user1",
     email: "user1@user2",
   });
-  user.destroy().then((data) => {
+  user.namaUser = "Pojok Code";
+  user.save().then((data) => {
     res.send(data);
   });
 });
