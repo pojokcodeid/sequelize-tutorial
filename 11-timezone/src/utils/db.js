@@ -16,7 +16,16 @@ const sequelize = new Sequelize(
     dialectOptions: {
       requestTimeout: 30000,
       encrypt: true,
+      useUTC: false, // untuk membaca dari database
+      dateStrings: true,
+      typeCast(field, next) {
+        if (field.type === "DATETIME") {
+          return field.string();
+        }
+        return next();
+      },
     },
+    timezone: "Asia/Jakarta",
   }
 );
 
