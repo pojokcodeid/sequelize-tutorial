@@ -1,0 +1,4 @@
+ [LOGGER] 2023-10-13 10:20:19.008 PM error : controllers/userController.js:setUser - Validation error
+ [LOGGER] 2023-10-13 10:39:07.171 PM error : controllers/userController.js:setUser - Validation error
+ [LOGGER] 2023-10-13 11:03:24.697 PM error : verifyAccessToken is not defined
+ [LOGGER] 2023-10-13 11:18:16.998 PM error : controllers/userController.js:setUser - Validation error

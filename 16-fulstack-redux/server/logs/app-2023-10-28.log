@@ -1,0 +1,40 @@
+ [LOGGER] 2023-10-28 07:09:23.913 PM error : uncaughtException: Operation timeout
+SequelizeConnectionAcquireTimeoutError: Operation timeout
+    at ConnectionManager.getConnection (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:206:15)
+    at async Transaction.prepareEnvironment (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\transaction.js:85:24)
+    at async Sequelize.transaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:500:7)
+    at async setContact (file:///C:/youtube/sequelize/15-fullstack/server/src/controllers/contactController.js:9:13)
+ [LOGGER] 2023-10-28 07:33:10.038 PM error : uncaughtException: Operation timeout
+SequelizeConnectionAcquireTimeoutError: Operation timeout
+    at ConnectionManager.getConnection (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:206:15)
+    at async Transaction.prepareEnvironment (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\transaction.js:85:24)
+    at async Sequelize.transaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:500:7)
+    at async setContact (file:///C:/youtube/sequelize/15-fullstack/server/src/controllers/contactController.js:9:13)
+ [LOGGER] 2023-10-28 07:34:08.315 PM error : controllers/contactController.js:setContact - Validation error: Validation isEmail on email failed
+ [LOGGER] 2023-10-28 07:34:38.570 PM error : controllers/contactController.js:setContact - Validation error: Validation isEmail on email failed
+ [LOGGER] 2023-10-28 07:35:53.008 PM error : controllers/contactController.js:setContact - Validation error: Validation isEmail on email failed
+ [LOGGER] 2023-10-28 07:37:10.048 PM error : controllers/contactController.js:setContact - Validation error: Validation isEmail on email failed
+ [LOGGER] 2023-10-28 07:39:49.161 PM error : controllers/contactController.js:setContact - Validation error: Validation isEmail on email failed
+ [LOGGER] 2023-10-28 07:43:17.561 PM error : controllers/contactController.js:setContact - Validation error: Validation isEmail on email failed
+ [LOGGER] 2023-10-28 07:43:49.068 PM error : controllers/contactController.js:setContact - Validation error: Validation isEmail on email failed
+ [LOGGER] 2023-10-28 10:18:43.338 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:19:54.132 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:22:45.420 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:25:31.489 PM error : controllers/contactController.js:updateContact - Expected a string but received a Array
+ [LOGGER] 2023-10-28 10:43:02.856 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:43:39.852 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:44:16.445 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:50:43.984 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:51:47.535 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:52:54.540 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:53:09.739 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:53:33.622 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 10:59:53.003 PM error : controllers/contactController.js:updateContact - (conn=803, no: 1366, SQLState: 22007) Incorrect integer value: 'undefined' for column `latihan_development`.`address`.`contact_id` at row 1
+sql: INSERT INTO `address` (`address_id`,`address_type`,`street`,`city`,`province`,`country`,`zip_code`,`created_at`,`updated_at`,`contact_id`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?); - parameters:['Rumah','jl. flamboyan no 55','','','','','2023-10-28 22:59:52.993'...]
+ [LOGGER] 2023-10-28 11:00:55.529 PM error : controllers/contactController.js:updateContact - (conn=812, no: 1366, SQLState: 22007) Incorrect integer value: 'undefined' for column `latihan_development`.`address`.`contact_id` at row 1
+sql: INSERT INTO `address` (`address_id`,`address_type`,`street`,`city`,`province`,`country`,`zip_code`,`created_at`,`updated_at`,`contact_id`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?); - parameters:['Rumah','jl. flamboyan no 55','','','','','2023-10-28 22:53:57.000'...]
+ [LOGGER] 2023-10-28 11:23:53.619 PM error : controllers/contactController.js:updateContact - Address.query is not a function
+ [LOGGER] 2023-10-28 11:43:58.326 PM error : controllers/contactController.js:updateContact - (conn=1032, no: 1054, SQLState: 42S22) Unknown column 'contactiId' in 'where clause'
+sql: UPDATE `contact` SET `first_name`=?,`last_name`=?,`email`=?,`phone`=?,`updated_at`=? WHERE `contactiId` = ? - parameters:['Fatimah','Hilyatul Aulia','','','2023-10-28 23:43:58.319','30']
+ [LOGGER] 2023-10-28 11:50:47.287 PM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-28 11:58:23.095 PM error : controllers/contactController.js:updateContact - Expected a string but received a number

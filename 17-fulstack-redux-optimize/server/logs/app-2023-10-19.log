@@ -1,0 +1,102 @@
+ [LOGGER] 2023-10-19 05:51:10.616 AM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-19 05:51:10.619 AM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-19 05:51:10.621 AM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-19 06:18:44.409 AM error : uncaughtException: t is not defined
+ReferenceError: t is not defined
+    at forgotPassword (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:364:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:18:44.412 AM error : uncaughtException: WHERE parameter "user_id" has invalid "undefined" value
+Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MariaDBQueryGenerator.whereItemQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at MariaDBQueryGenerator.whereItemsQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at MariaDBQueryGenerator.whereQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1714:24)
+    at MariaDBQueryGenerator.updateQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:371:116)
+    at MySQLQueryInterface.bulkUpdate (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:361:37)
+    at User.update (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\model.js:2010:54)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:20:11.648 AM error : uncaughtException: t is not defined
+ReferenceError: t is not defined
+    at forgotPassword (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:364:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:20:11.651 AM error : uncaughtException: WHERE parameter "user_id" has invalid "undefined" value
+Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MariaDBQueryGenerator.whereItemQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at MariaDBQueryGenerator.whereItemsQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at MariaDBQueryGenerator.whereQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1714:24)
+    at MariaDBQueryGenerator.updateQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:371:116)
+    at MySQLQueryInterface.bulkUpdate (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:361:37)
+    at User.update (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\model.js:2010:54)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:21:04.259 AM error : uncaughtException: t is not defined
+ReferenceError: t is not defined
+    at forgotPassword (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:366:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:21:04.262 AM error : uncaughtException: WHERE parameter "user_id" has invalid "undefined" value
+Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MariaDBQueryGenerator.whereItemQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at MariaDBQueryGenerator.whereItemsQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at MariaDBQueryGenerator.whereQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1714:24)
+    at MariaDBQueryGenerator.updateQuery (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:371:116)
+    at MySQLQueryInterface.bulkUpdate (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:361:37)
+    at User.update (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\model.js:2010:54)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:26:52.478 AM error : uncaughtException: t is not defined
+ReferenceError: t is not defined
+    at forgotPassword (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:365:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:28:30.539 AM error : uncaughtException: t is not defined
+ReferenceError: t is not defined
+    at forgotPassword (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:365:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:29:14.913 AM error : uncaughtException: t is not defined
+ReferenceError: t is not defined
+    at forgotPassword (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:361:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:29:59.770 AM error : uncaughtException: t is not defined
+ReferenceError: t is not defined
+    at forgotPassword (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:360:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:30:42.239 AM error : controllers/userController.js:forgotPassword - email is not defined
+ [LOGGER] 2023-10-19 06:32:39.876 AM error : controllers/userController.js:forgotPassword - User.save is not a function
+ [LOGGER] 2023-10-19 06:33:00.977 AM error : controllers/userController.js:forgotPassword - email is not defined
+ [LOGGER] 2023-10-19 06:33:35.262 AM error : controllers/userController.js:forgotPassword - email is not defined
+ [LOGGER] 2023-10-19 06:36:35.434 AM error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at forgotPassword (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:344:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-19 06:42:48.954 AM error : controllers/userController.js:updateUser - userValid is not defined
+ [LOGGER] 2023-10-19 06:44:03.421 AM error : controllers/userController.js:updateUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-19 06:44:03.429 AM error : uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.entries (<anonymous>)
+    at sanitization (file:///C:/youtube/sequelize/12-rest-api/src/validation/sanitization.js:5:10)
+    at dataValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:7:14)
+    at updateUser (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:237:18)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:144:13)
+    at autenticate (file:///C:/youtube/sequelize/12-rest-api/src/controllers/errorHandling.js:34:3)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:114:3)
+ [LOGGER] 2023-10-19 06:45:16.410 AM error : controllers/userController.js:updateUser - Cannot read properties of undefined (reading 'length')

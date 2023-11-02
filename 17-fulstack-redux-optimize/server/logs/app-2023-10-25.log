@@ -1,0 +1,18 @@
+ [LOGGER] 2023-10-25 05:48:27.561 PM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-25 05:48:27.566 PM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-25 05:48:27.568 PM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32

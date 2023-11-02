@@ -1,0 +1,6 @@
+ [LOGGER] 2023-10-23 08:18:12.497 PM error : controllers/userController.js:setLogin - WHERE parameter "email" has invalid "undefined" value
+ [LOGGER] 2023-10-23 08:24:18.288 PM error : controllers/userController.js:setLogin - WHERE parameter "email" has invalid "undefined" value
+ [LOGGER] 2023-10-23 08:24:55.512 PM error : controllers/userController.js:setLogin - WHERE parameter "email" has invalid "undefined" value
+ [LOGGER] 2023-10-23 08:25:03.430 PM error : controllers/userController.js:setLogin - WHERE parameter "email" has invalid "undefined" value
+ [LOGGER] 2023-10-23 08:25:47.317 PM error : controllers/userController.js:setLogin - data and hash arguments required
+ [LOGGER] 2023-10-23 08:36:07.953 PM error : controllers/userController.js:setLogin - WHERE parameter "email" has invalid "undefined" value

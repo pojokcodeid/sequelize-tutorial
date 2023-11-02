@@ -1,0 +1,36 @@
+ [LOGGER] 2023-10-26 12:09:55.287 AM error : uncaughtException: Operation timeout
+SequelizeConnectionAcquireTimeoutError: Operation timeout
+    at ConnectionManager.getConnection (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:206:15)
+    at async Transaction.prepareEnvironment (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\transaction.js:85:24)
+    at async Sequelize.transaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:500:7)
+    at async setUser (file:///C:/youtube/sequelize/15-fullstack/server/src/controllers/userController.js:16:13)
+ [LOGGER] 2023-10-26 12:09:57.051 AM error : uncaughtException: Operation timeout
+SequelizeConnectionAcquireTimeoutError: Operation timeout
+    at ConnectionManager.getConnection (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:206:15)
+    at async Transaction.prepareEnvironment (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\transaction.js:85:24)
+    at async Sequelize.transaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:500:7)
+    at async setUser (file:///C:/youtube/sequelize/15-fullstack/server/src/controllers/userController.js:16:13)
+ [LOGGER] 2023-10-26 12:14:25.431 AM error : uncaughtException: Operation timeout
+SequelizeConnectionAcquireTimeoutError: Operation timeout
+    at ConnectionManager.getConnection (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:206:15)
+    at async Transaction.prepareEnvironment (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\transaction.js:85:24)
+    at async Sequelize.transaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:500:7)
+    at async setUser (file:///C:/youtube/sequelize/15-fullstack/server/src/controllers/userController.js:16:13)
+ [LOGGER] 2023-10-26 01:07:58.775 PM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-26 01:07:58.778 PM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-26 01:07:58.781 PM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32

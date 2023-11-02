@@ -1,0 +1,239 @@
+ [LOGGER] 2023-10-14 05:21:14.990 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:23:57.017 AM error : uncaughtException: data.map is not a function
+TypeError: data.map is not a function
+    at userValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:7:8)
+    at setUser (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:22:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 05:26:09.496 AM error : uncaughtException: element is not defined
+ReferenceError: element is not defined
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:8:26
+    at Array.forEach (<anonymous>)
+    at userValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:7:24)
+    at setUser (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:22:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 05:26:35.444 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:27:04.968 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:28:27.952 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:29:12.801 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:30:32.242 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:32:28.382 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:32:39.897 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:33:53.029 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:35:05.356 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:36:00.255 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:37:46.977 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:39:06.550 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:39:25.943 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:40:10.987 AM error : uncaughtException: data is not a function
+TypeError: data is not a function
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:16:23
+    at Array.forEach (<anonymous>)
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:10:30
+    at Array.forEach (<anonymous>)
+    at userValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:7:24)
+    at setUser (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:22:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 05:40:29.970 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:42:36.756 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:42:56.714 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:44:13.237 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'message')
+ [LOGGER] 2023-10-14 05:45:38.629 AM error : uncaughtException: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at Function.all (<anonymous>)
+    at userValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:7:17)
+    at setUser (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:22:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 05:45:38.634 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:47:10.539 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:48:00.428 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:49:40.360 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:50:29.777 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:51:47.632 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:52:24.002 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:52:45.250 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:53:17.049 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:53:57.364 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:54:29.331 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:55:36.236 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:56:05.827 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:57:03.526 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:57:31.042 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:57:58.985 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:59:14.414 AM error : uncaughtException: Cannot access 'message' before initialization
+ReferenceError: Cannot access 'message' before initialization
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:14:15
+    at Array.map (<anonymous>)
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:11:34
+    at Array.map (<anonymous>)
+    at userValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:7:26)
+    at setUser (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:22:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 05:59:14.418 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 05:59:48.501 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:00:04.994 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:00:57.346 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:02:03.294 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:02:12.524 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:04:02.850 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:05:47.293 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:07:32.805 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:09:10.710 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:10:05.448 AM error : uncaughtException: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+    at Function.all (<anonymous>)
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:10:21
+    at Array.map (<anonymous>)
+    at userValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:7:26)
+    at setUser (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:22:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 06:10:05.451 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:10:56.423 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:12:02.863 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:12:35.684 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:13:24.175 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:14:43.347 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:15:10.600 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:15:31.797 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:22:43.678 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:24:22.740 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:25:03.945 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:26:11.344 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:31:20.720 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 06:32:22.334 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:48:50.576 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:51:19.974 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:51:50.203 AM error : uncaughtException: data.forEach is not a function
+TypeError: data.forEach is not a function
+    at message (file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:7:10)
+    at new Promise (<anonymous>)
+    at userValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/userValidation.js:6:25)
+    at setUser (file:///C:/youtube/sequelize/12-rest-api/src/controllers/userController.js:22:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 07:51:50.208 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:52:02.538 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:54:15.144 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:54:38.592 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:54:55.023 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:56:03.689 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:56:28.162 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:57:34.657 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 07:58:27.065 AM error : controllers/userController.js:setUser - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 08:10:00.309 AM error : controllers/userController.js:setLogin - message is not defined
+ [LOGGER] 2023-10-14 12:49:16.191 PM error : controllers/contactController.js:setContact - contactValid is not defined
+ [LOGGER] 2023-10-14 12:51:37.494 PM error : uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.entries (<anonymous>)
+    at sanitization (file:///C:/youtube/sequelize/12-rest-api/src/validation/sanitization.js:5:10)
+    at dataValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:6:14)
+    at setContact (file:///C:/youtube/sequelize/12-rest-api/src/controllers/contactController.js:6:21)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:144:13)
+    at autenticate (file:///C:/youtube/sequelize/12-rest-api/src/controllers/errorHandling.js:34:3)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:114:3)
+ [LOGGER] 2023-10-14 12:56:39.928 PM error : uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.entries (<anonymous>)
+    at sanitization (file:///C:/youtube/sequelize/12-rest-api/src/validation/sanitization.js:5:10)
+    at dataValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:6:14)
+    at setContact (file:///C:/youtube/sequelize/12-rest-api/src/controllers/contactController.js:6:19)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:144:13)
+    at autenticate (file:///C:/youtube/sequelize/12-rest-api/src/controllers/errorHandling.js:34:3)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:114:3)
+ [LOGGER] 2023-10-14 01:05:58.242 PM error : uncaughtException: Cannot read properties of undefined (reading 'split')
+TypeError: Cannot read properties of undefined (reading 'split')
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:10:35
+    at Array.forEach (<anonymous>)
+    at message (file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:8:26)
+    at new Promise (<anonymous>)
+    at dataValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:7:25)
+    at setContact (file:///C:/youtube/sequelize/12-rest-api/src/controllers/contactController.js:15:15)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:144:13)
+    at autenticate (file:///C:/youtube/sequelize/12-rest-api/src/controllers/errorHandling.js:34:3)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+ [LOGGER] 2023-10-14 01:08:09.831 PM error : uncaughtException: dd is not defined
+ReferenceError: dd is not defined
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:44:21
+    at Array.forEach (<anonymous>)
+    at message (file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:8:26)
+    at new Promise (<anonymous>)
+    at dataValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:7:25)
+    at setContact (file:///C:/youtube/sequelize/12-rest-api/src/controllers/contactController.js:15:15)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\route.js:144:13)
+    at autenticate (file:///C:/youtube/sequelize/12-rest-api/src/controllers/errorHandling.js:34:3)
+    at Layer.handle [as handle_request] (C:\youtube\sequelize\12-rest-api\node_modules\express\lib\router\layer.js:95:5)
+ [LOGGER] 2023-10-14 01:08:09.834 PM error : uncaughtException: dd is not defined
+ReferenceError: dd is not defined
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:44:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 01:08:09.835 PM error : uncaughtException: dd is not defined
+ReferenceError: dd is not defined
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:44:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 01:08:09.836 PM error : uncaughtException: dd is not defined
+ReferenceError: dd is not defined
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:44:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-14 01:23:50.033 PM error : uncaughtException: Expected a string but received a number
+TypeError: Expected a string but received a number
+    at assertString (C:\youtube\sequelize\12-rest-api\node_modules\validator\lib\util\assertString.js:17:11)
+    at ltrim (C:\youtube\sequelize\12-rest-api\node_modules\validator\lib\ltrim.js:13:29)
+    at Object.trim (C:\youtube\sequelize\12-rest-api\node_modules\validator\lib\trim.js:15:49)
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/sanitization.js:10:45
+    at Array.forEach (<anonymous>)
+    at sanitization (file:///C:/youtube/sequelize/12-rest-api/src/validation/sanitization.js:5:24)
+    at dataValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:7:14)
+    at file:///C:/youtube/sequelize/12-rest-api/src/controllers/contactController.js:25:13
+    at Array.forEach (<anonymous>)
+    at file:///C:/youtube/sequelize/12-rest-api/src/controllers/contactController.js:19:15
+ [LOGGER] 2023-10-14 01:24:23.107 PM error : uncaughtException: Expected a string but received a number
+TypeError: Expected a string but received a number
+    at assertString (C:\youtube\sequelize\12-rest-api\node_modules\validator\lib\util\assertString.js:17:11)
+    at ltrim (C:\youtube\sequelize\12-rest-api\node_modules\validator\lib\ltrim.js:13:29)
+    at Object.trim (C:\youtube\sequelize\12-rest-api\node_modules\validator\lib\trim.js:15:49)
+    at file:///C:/youtube/sequelize/12-rest-api/src/validation/sanitization.js:10:45
+    at Array.forEach (<anonymous>)
+    at sanitization (file:///C:/youtube/sequelize/12-rest-api/src/validation/sanitization.js:5:24)
+    at dataValid (file:///C:/youtube/sequelize/12-rest-api/src/validation/dataValidation.js:7:14)
+    at file:///C:/youtube/sequelize/12-rest-api/src/controllers/contactController.js:25:19
+    at Array.forEach (<anonymous>)
+    at file:///C:/youtube/sequelize/12-rest-api/src/controllers/contactController.js:19:15
+ [LOGGER] 2023-10-14 02:10:19.266 PM error : controllers/contactController.js:setContact - Validation error
+ [LOGGER] 2023-10-14 03:19:35.176 PM error : controllers/contactController.js:setContact - Expected a string but received a Array
+ [LOGGER] 2023-10-14 03:20:02.355 PM error : controllers/contactController.js:setContact - Expected a string but received a Array
+ [LOGGER] 2023-10-14 03:29:02.127 PM error : controllers/contactController.js:getContact - Invalid value { address_type: '%ho%' }
+ [LOGGER] 2023-10-14 03:52:02.564 PM error : controllers/contactController.js:getContact - (conn=585, no: 1054, SQLState: 42S22) Unknown column 'Addresses.email' in 'on clause'
+sql: SELECT `Contact`.`contact_id` AS `contactId`, `Contact`.`first_name` AS `firstName`, `Contact`.`last_name` AS `lastName`, `Contact`.`email`, `Contact`.`phone`, `Contact`.`created_at` AS `createdAt`, `Contact`.`updated_at` AS `updatedAt`, `Contact`.`user_id` AS `userId`, `Addresses`.`address_id` AS `Addresses.addressId`, `Addresses`.`address_type` AS `Addresses.addressType`, `Addresses`.`street` AS `Addresses.street`, `Addresses`.`city` AS `Addresses.city`, `Addresses`.`province` AS `Addresses.province`, `Addresses`.`country` AS `Addresses.country`, `Addresses`.`zip_code` AS `Addresses.zipCode`, `Addresses`.`created_at` AS `Addresses.createdAt`, `Addresses`.`updated_at` AS `Addresses.updatedAt`, `Addresses`.`contact_id` AS `Addresses.contactId` FROM `contact` AS `Contact` INNER JOIN `address` AS `Addresses` ON `Contact`.`contact_id` = `Addresses`.`contact_id` AND `Addresses`.`email` LIKE '%gmail%'; - parameters:[]
+ [LOGGER] 2023-10-14 03:53:53.130 PM error : controllers/contactController.js:getContact - (conn=587, no: 1054, SQLState: 42S22) Unknown column 'Addresses.email' in 'on clause'
+sql: SELECT `Contact`.`contact_id` AS `contactId`, `Contact`.`first_name` AS `firstName`, `Contact`.`last_name` AS `lastName`, `Contact`.`email`, `Contact`.`phone`, `Contact`.`created_at` AS `createdAt`, `Contact`.`updated_at` AS `updatedAt`, `Contact`.`user_id` AS `userId`, `Addresses`.`address_id` AS `Addresses.addressId`, `Addresses`.`address_type` AS `Addresses.addressType`, `Addresses`.`street` AS `Addresses.street`, `Addresses`.`city` AS `Addresses.city`, `Addresses`.`province` AS `Addresses.province`, `Addresses`.`country` AS `Addresses.country`, `Addresses`.`zip_code` AS `Addresses.zipCode`, `Addresses`.`created_at` AS `Addresses.createdAt`, `Addresses`.`updated_at` AS `Addresses.updatedAt`, `Addresses`.`contact_id` AS `Addresses.contactId` FROM `contact` AS `Contact` INNER JOIN `address` AS `Addresses` ON `Contact`.`contact_id` = `Addresses`.`contact_id` AND `Addresses`.`email` LIKE '%gmail%'; - parameters:[]
+ [LOGGER] 2023-10-14 03:54:09.743 PM error : controllers/contactController.js:getContact - (conn=589, no: 1054, SQLState: 42S22) Unknown column 'Addresses.email' in 'on clause'
+sql: SELECT `Contact`.`contact_id` AS `contactId`, `Contact`.`first_name` AS `firstName`, `Contact`.`last_name` AS `lastName`, `Contact`.`email`, `Contact`.`phone`, `Contact`.`created_at` AS `createdAt`, `Contact`.`updated_at` AS `updatedAt`, `Contact`.`user_id` AS `userId`, `Addresses`.`address_id` AS `Addresses.addressId`, `Addresses`.`address_type` AS `Addresses.addressType`, `Addresses`.`street` AS `Addresses.street`, `Addresses`.`city` AS `Addresses.city`, `Addresses`.`province` AS `Addresses.province`, `Addresses`.`country` AS `Addresses.country`, `Addresses`.`zip_code` AS `Addresses.zipCode`, `Addresses`.`created_at` AS `Addresses.createdAt`, `Addresses`.`updated_at` AS `Addresses.updatedAt`, `Addresses`.`contact_id` AS `Addresses.contactId` FROM `contact` AS `Contact` INNER JOIN `address` AS `Addresses` ON `Contact`.`contact_id` = `Addresses`.`contact_id` AND `Addresses`.`email` LIKE '%gmail%'; - parameters:[]
+ [LOGGER] 2023-10-14 03:59:28.826 PM error : controllers/contactController.js:getContact - (conn=612, no: 1054, SQLState: 42S22) Unknown column 'Contact.street' in 'where clause'
+sql: SELECT `Contact`.`contact_id` AS `contactId`, `Contact`.`first_name` AS `firstName`, `Contact`.`last_name` AS `lastName`, `Contact`.`email`, `Contact`.`phone`, `Contact`.`created_at` AS `createdAt`, `Contact`.`updated_at` AS `updatedAt`, `Contact`.`user_id` AS `userId`, `Addresses`.`address_id` AS `Addresses.addressId`, `Addresses`.`address_type` AS `Addresses.addressType`, `Addresses`.`street` AS `Addresses.street`, `Addresses`.`city` AS `Addresses.city`, `Addresses`.`province` AS `Addresses.province`, `Addresses`.`country` AS `Addresses.country`, `Addresses`.`zip_code` AS `Addresses.zipCode`, `Addresses`.`created_at` AS `Addresses.createdAt`, `Addresses`.`updated_at` AS `Addresses.updatedAt`, `Addresses`.`contact_id` AS `Addresses.contactId` FROM `contact` AS `Contact` INNER JOIN `address` AS `Addresses` ON `Contact`.`contact_id` = `Addresses`.`contact_id` AND `Addresses`.`street` LIKE '%Jl.%' AND `Addresses`.`city` LIKE '%Bandung%' WHERE `Contact`.`street` LIKE '%Jl.%' AND `Contact`.`city` LIKE '%Bandung%'; - parameters:[]
+ [LOGGER] 2023-10-14 04:04:28.254 PM error : controllers/contactController.js:getContact - (conn=638, no: 1054, SQLState: 42S22) Unknown column 'Addresses.cityv' in 'on clause'
+sql: SELECT `Contact`.`contact_id` AS `contactId`, `Contact`.`first_name` AS `firstName`, `Contact`.`last_name` AS `lastName`, `Contact`.`email`, `Contact`.`phone`, `Contact`.`created_at` AS `createdAt`, `Contact`.`updated_at` AS `updatedAt`, `Contact`.`user_id` AS `userId`, `Addresses`.`address_id` AS `Addresses.addressId`, `Addresses`.`address_type` AS `Addresses.addressType`, `Addresses`.`street` AS `Addresses.street`, `Addresses`.`city` AS `Addresses.city`, `Addresses`.`province` AS `Addresses.province`, `Addresses`.`country` AS `Addresses.country`, `Addresses`.`zip_code` AS `Addresses.zipCode`, `Addresses`.`created_at` AS `Addresses.createdAt`, `Addresses`.`updated_at` AS `Addresses.updatedAt`, `Addresses`.`contact_id` AS `Addresses.contactId` FROM `contact` AS `Contact` INNER JOIN `address` AS `Addresses` ON `Contact`.`contact_id` = `Addresses`.`contact_id` AND `Addresses`.`street` LIKE '%Jl.%' AND `Addresses`.`cityv` LIKE '%Bandung%' WHERE `Contact`.`email` LIKE '%k%'; - parameters:[]
+ [LOGGER] 2023-10-14 04:38:30.472 PM error : controllers/contactController.js:updateContact - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 04:39:02.553 PM error : controllers/contactController.js:updateContact - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 04:39:46.255 PM error : controllers/contactController.js:updateContact - Cannot read properties of undefined (reading 'length')
+ [LOGGER] 2023-10-14 04:41:05.520 PM error : controllers/contactController.js:updateContact - Cannot read properties of undefined (reading '0')
+ [LOGGER] 2023-10-14 04:41:15.915 PM error : controllers/contactController.js:updateContact - Cannot read properties of undefined (reading '0')
+ [LOGGER] 2023-10-14 05:06:49.371 PM error : uncaughtException: (conn=780, no: 1451, SQLState: 23000) Cannot delete or update a parent row: a foreign key constraint fails (`latihan_development`.`address`, CONSTRAINT `address_ibfk_1` FOREIGN KEY (`contact_id`) REFERENCES `contact` (`contact_id`))
+sql: DELETE FROM `contact` WHERE `contact_id` = '5' - parameters:[]
+Error
+    at Query.run (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\mariadb\query.js:53:25)
+    at C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.bulkDelete (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:12)
+    at async Contact.destroy (C:\youtube\sequelize\12-rest-api\node_modules\sequelize\lib\model.js:1838:16)
+ [LOGGER] 2023-10-14 05:59:28.660 PM error : uncaughtException: autenticate is not defined
+ReferenceError: autenticate is not defined
+    at file:///C:/youtube/sequelize/12-rest-api/src/routes/addressRouter.js:5:33
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-10-14 07:21:09.011 PM error : controllers/addressController.js:updateAddress - dataValid is not defined
+ [LOGGER] 2023-10-14 07:22:02.934 PM error : controllers/addressController.js:updateAddress - dataValid is not defined

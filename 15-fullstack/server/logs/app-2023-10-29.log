@@ -1,0 +1,181 @@
+ [LOGGER] 2023-10-29 12:06:59.537 AM error : controllers/contactController.js:getContact - myEmptyObj is not defined
+ [LOGGER] 2023-10-29 12:06:59.553 AM error : controllers/contactController.js:getContact - myEmptyObj is not defined
+ [LOGGER] 2023-10-29 12:09:53.667 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:10:15.788 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:10:19.106 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:10:30.583 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:11:53.445 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:15:47.403 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:16:42.783 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:16:44.043 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:19:18.420 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:21:34.301 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:24:34.040 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:25:48.815 AM error : controllers/contactController.js:updateContact - notNull Violation: Address.contactId cannot be null
+ [LOGGER] 2023-10-29 12:27:02.525 AM error : controllers/contactController.js:updateContact - notNull Violation: Address.contactId cannot be null
+ [LOGGER] 2023-10-29 12:28:58.482 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:29:44.559 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:30:15.659 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:30:30.217 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:30:47.750 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:31:14.449 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:31:19.593 AM error : controllers/contactController.js:updateContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:37:07.291 AM error : controllers/contactController.js:updateContact - Address.createe is not a function
+ [LOGGER] 2023-10-29 12:38:38.088 AM error : controllers/contactController.js:updateContact - Address.createe is not a function
+ [LOGGER] 2023-10-29 12:41:07.784 AM error : controllers/contactController.js:updateContact - Address.createe is not a function
+ [LOGGER] 2023-10-29 12:48:51.245 AM error : controllers/contactController.js:updateContact - Address.createe is not a function
+ [LOGGER] 2023-10-29 12:49:14.526 AM error : controllers/contactController.js:updateContact - Address.createe is not a function
+ [LOGGER] 2023-10-29 12:49:33.069 AM error : controllers/contactController.js:updateContact - Address.createe is not a function
+ [LOGGER] 2023-10-29 12:51:35.181 AM error : controllers/contactController.js:updateContact - cont is not defined
+ [LOGGER] 2023-10-29 12:57:22.060 AM error : controllers/contactController.js:setContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:58:13.787 AM error : controllers/contactController.js:setContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 12:59:16.634 AM error : controllers/contactController.js:setContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 01:01:05.392 AM error : controllers/contactController.js:setContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 01:01:41.546 AM error : controllers/contactController.js:setContact - Expected a string but received a number
+ [LOGGER] 2023-10-29 01:02:38.514 AM error : controllers/contactController.js:updateContact - Expected a string but received a Array
+ [LOGGER] 2023-10-29 07:34:11.675 AM error : uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (C:\youtube\sequelize\15-fullstack\server\node_modules\express\lib\application.js:635:24)
+    at file:///C:/youtube/sequelize/15-fullstack/server/src/index.js:8:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-10-29 08:38:23.734 AM error : controllers/contactController.js:setContact - Expected a string but received a Array
+ [LOGGER] 2023-10-29 08:39:54.938 AM error : controllers/contactController.js:setContact - Expected a string but received a Array
+ [LOGGER] 2023-10-29 08:44:16.834 AM error : controllers/contactController.js:setContact - Expected a string but received a Array
+ [LOGGER] 2023-10-29 09:01:07.365 AM error : uncaughtException: commit has been called on this transaction(e9227ddc-4c5f-43da-aa70-02067860b3a0), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+Error: commit has been called on this transaction(e9227ddc-4c5f-43da-aa70-02067860b3a0), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:294:23)
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:304:7
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.bulkDelete (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:33)
+    at Address.destroy (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\model.js:1838:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-29 09:01:07.370 AM error : uncaughtException: commit has been called on this transaction(e9227ddc-4c5f-43da-aa70-02067860b3a0), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+Error: commit has been called on this transaction(e9227ddc-4c5f-43da-aa70-02067860b3a0), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:294:23)
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:304:7
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.bulkDelete (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:33)
+    at Contact.destroy (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\model.js:1838:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-29 09:02:45.513 AM error : uncaughtException: commit has been called on this transaction(19169332-d484-4328-a511-ef2dc6f98c2b), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+Error: commit has been called on this transaction(19169332-d484-4328-a511-ef2dc6f98c2b), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:294:23)
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:304:7
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.bulkDelete (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:33)
+    at Address.destroy (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\model.js:1838:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-29 09:02:45.519 AM error : uncaughtException: commit has been called on this transaction(19169332-d484-4328-a511-ef2dc6f98c2b), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+Error: commit has been called on this transaction(19169332-d484-4328-a511-ef2dc6f98c2b), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:294:23)
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:304:7
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.bulkDelete (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:33)
+    at Contact.destroy (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\model.js:1838:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-29 09:04:32.697 AM error : uncaughtException: commit has been called on this transaction(80da66ac-7419-4788-bef6-97fc2df09499), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+Error: commit has been called on this transaction(80da66ac-7419-4788-bef6-97fc2df09499), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:294:23)
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:304:7
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.bulkDelete (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:33)
+    at Address.destroy (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\model.js:1838:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-29 09:04:32.702 AM error : uncaughtException: commit has been called on this transaction(80da66ac-7419-4788-bef6-97fc2df09499), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+Error: commit has been called on this transaction(80da66ac-7419-4788-bef6-97fc2df09499), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:294:23)
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:304:7
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.bulkDelete (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:33)
+    at Contact.destroy (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\model.js:1838:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-29 09:06:06.101 AM error : uncaughtException: commit has been called on this transaction(cd0824cb-04bc-460e-bd2e-ec087871a0bd), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+Error: commit has been called on this transaction(cd0824cb-04bc-460e-bd2e-ec087871a0bd), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:294:23)
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:304:7
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.bulkDelete (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:33)
+    at Address.destroy (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\model.js:1838:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-29 09:06:06.106 AM error : uncaughtException: commit has been called on this transaction(cd0824cb-04bc-460e-bd2e-ec087871a0bd), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+Error: commit has been called on this transaction(cd0824cb-04bc-460e-bd2e-ec087871a0bd), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:294:23)
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:304:7
+    at C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\youtube\sequelize\15-fullstack\server\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.bulkDelete (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:33)
+    at Contact.destroy (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\model.js:1838:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2023-10-29 02:16:48.909 PM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-29 02:16:48.913 PM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-29 02:16:48.915 PM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+ [LOGGER] 2023-10-29 02:40:07.838 PM error : uncaughtException: Naming collision between attribute 'Addresses' and association 'Addresses' on model Contact. To remedy this, change either foreignKey or as in your association definition
+Error: Naming collision between attribute 'Addresses' and association 'Addresses' on model Contact. To remedy this, change either foreignKey or as in your association definition
+    at Object.checkNamingCollision (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\associations\helpers.js:4:11)
+    at HasMany._injectAttributes (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\associations\has-many.js:115:13)
+    at Contact.hasMany (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\associations\mixin.js:24:17)
+    at file:///C:/youtube/sequelize/15-fullstack/server/src/models/addressModel.js:41:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-10-29 02:40:22.424 PM error : uncaughtException: Naming collision between attribute 'Addresses' and association 'Addresses' on model Contact. To remedy this, change either foreignKey or as in your association definition
+Error: Naming collision between attribute 'Addresses' and association 'Addresses' on model Contact. To remedy this, change either foreignKey or as in your association definition
+    at Object.checkNamingCollision (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\associations\helpers.js:4:11)
+    at HasMany._injectAttributes (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\associations\has-many.js:115:13)
+    at Contact.hasMany (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\associations\mixin.js:24:17)
+    at file:///C:/youtube/sequelize/15-fullstack/server/src/models/addressModel.js:41:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-10-29 02:41:37.404 PM error : uncaughtException: Naming collision between attribute 'Addresses' and association 'Addresses' on model Contact. To remedy this, change either foreignKey or as in your association definition
+Error: Naming collision between attribute 'Addresses' and association 'Addresses' on model Contact. To remedy this, change either foreignKey or as in your association definition
+    at Object.checkNamingCollision (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\associations\helpers.js:4:11)
+    at HasMany._injectAttributes (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\associations\has-many.js:115:13)
+    at Contact.hasMany (C:\youtube\sequelize\15-fullstack\server\node_modules\sequelize\lib\associations\mixin.js:24:17)
+    at file:///C:/youtube/sequelize/15-fullstack/server/src/models/addressModel.js:41:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-10-29 02:47:06.773 PM error : controllers/contactController.js:getContact - (conn=47, no: 1054, SQLState: 42S22) Unknown column 'Contact.id' in 'field list'
+sql: SELECT `Contact`.`id`, `Contact`.`contact_id` AS `contactId`, `Contact`.`first_name` AS `firstName`, `Contact`.`last_name` AS `lastName`, `Contact`.`email`, `Contact`.`phone`, `Contact`.`created_at` AS `createdAt`, `Contact`.`updated_at` AS `updatedAt`, `Contact`.`user_id` AS `userId`, `Addresses`.`address_id` AS `Addresses.addressId`, `Addresses`.`address_type` AS `Addresses.addressType`, `Addresses`.`street` AS `Addresses.street`, `Addresses`.`city` AS `Addresses.city`, `Addresses`.`province` AS `Addresses.province`, `Addresses`.`country` AS `Addresses.country`, `Addresses`.`zip_code` AS `Addresses.zipCode`, `Addresses`.`created_at` AS `Addresses.createdAt`, `Addresses`.`updated_at` AS `Addresses.updatedAt`, `Addresses`.`contact_id` AS `Addresses.contactId` FROM `contact` AS `Contact` LEFT OUTER JOIN `address` AS `Addresses` ON `Contact`.`id` = `Addresses`.`contact_id`; - parameters:[]
+ [LOGGER] 2023-10-29 02:47:06.783 PM error : controllers/contactController.js:getContact - (conn=47, no: 1054, SQLState: 42S22) Unknown column 'Contact.id' in 'field list'
+sql: SELECT `Contact`.`id`, `Contact`.`contact_id` AS `contactId`, `Contact`.`first_name` AS `firstName`, `Contact`.`last_name` AS `lastName`, `Contact`.`email`, `Contact`.`phone`, `Contact`.`created_at` AS `createdAt`, `Contact`.`updated_at` AS `updatedAt`, `Contact`.`user_id` AS `userId`, `Addresses`.`address_id` AS `Addresses.addressId`, `Addresses`.`address_type` AS `Addresses.addressType`, `Addresses`.`street` AS `Addresses.street`, `Addresses`.`city` AS `Addresses.city`, `Addresses`.`province` AS `Addresses.province`, `Addresses`.`country` AS `Addresses.country`, `Addresses`.`zip_code` AS `Addresses.zipCode`, `Addresses`.`created_at` AS `Addresses.createdAt`, `Addresses`.`updated_at` AS `Addresses.updatedAt`, `Addresses`.`contact_id` AS `Addresses.contactId` FROM `contact` AS `Contact` LEFT OUTER JOIN `address` AS `Addresses` ON `Contact`.`id` = `Addresses`.`contact_id`; - parameters:[]
+ [LOGGER] 2023-10-29 02:47:11.106 PM error : controllers/contactController.js:getContact - (conn=47, no: 1054, SQLState: 42S22) Unknown column 'Contact.id' in 'field list'
+sql: SELECT `Contact`.`id`, `Contact`.`contact_id` AS `contactId`, `Contact`.`first_name` AS `firstName`, `Contact`.`last_name` AS `lastName`, `Contact`.`email`, `Contact`.`phone`, `Contact`.`created_at` AS `createdAt`, `Contact`.`updated_at` AS `updatedAt`, `Contact`.`user_id` AS `userId`, `Addresses`.`address_id` AS `Addresses.addressId`, `Addresses`.`address_type` AS `Addresses.addressType`, `Addresses`.`street` AS `Addresses.street`, `Addresses`.`city` AS `Addresses.city`, `Addresses`.`province` AS `Addresses.province`, `Addresses`.`country` AS `Addresses.country`, `Addresses`.`zip_code` AS `Addresses.zipCode`, `Addresses`.`created_at` AS `Addresses.createdAt`, `Addresses`.`updated_at` AS `Addresses.updatedAt`, `Addresses`.`contact_id` AS `Addresses.contactId` FROM `contact` AS `Contact` LEFT OUTER JOIN `address` AS `Addresses` ON `Contact`.`id` = `Addresses`.`contact_id`; - parameters:[]
+ [LOGGER] 2023-10-29 02:47:11.110 PM error : controllers/contactController.js:getContact - (conn=48, no: 1054, SQLState: 42S22) Unknown column 'Contact.id' in 'field list'
+sql: SELECT `Contact`.`id`, `Contact`.`contact_id` AS `contactId`, `Contact`.`first_name` AS `firstName`, `Contact`.`last_name` AS `lastName`, `Contact`.`email`, `Contact`.`phone`, `Contact`.`created_at` AS `createdAt`, `Contact`.`updated_at` AS `updatedAt`, `Contact`.`user_id` AS `userId`, `Addresses`.`address_id` AS `Addresses.addressId`, `Addresses`.`address_type` AS `Addresses.addressType`, `Addresses`.`street` AS `Addresses.street`, `Addresses`.`city` AS `Addresses.city`, `Addresses`.`province` AS `Addresses.province`, `Addresses`.`country` AS `Addresses.country`, `Addresses`.`zip_code` AS `Addresses.zipCode`, `Addresses`.`created_at` AS `Addresses.createdAt`, `Addresses`.`updated_at` AS `Addresses.updatedAt`, `Addresses`.`contact_id` AS `Addresses.contactId` FROM `contact` AS `Contact` LEFT OUTER JOIN `address` AS `Addresses` ON `Contact`.`id` = `Addresses`.`contact_id`; - parameters:[]
